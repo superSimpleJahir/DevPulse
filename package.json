@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
+    "build": "tsup",
     "start": "node dist/server.js",
     "typecheck": "tsc --noEmit"
   },
@@ -25,7 +25,8 @@
     "express": "^5.2.1",
     "http-status-codes": "^2.3.0",
     "jsonwebtoken": "^9.0.2",
-    "pg": "^8.20.0"
+    "pg": "^8.20.0",
+    "tsup": "^8.5.1"
   },
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
